@@ -6,6 +6,9 @@ turnadmin -k -u irving -p test -r irving.com
 
 
 # jitsi meet (https://github.com/jitsi/docker-jitsi-meet)
+
+rm -rf ~/.jitsi-meet-cfg/
+
 In .env file
 
 JVB_STUN_SERVERS=IP1:3478
